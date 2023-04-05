@@ -36,13 +36,23 @@ header .social{
     color: black;
     text-shadow: 0 0 5px ;
 }
+.wraper{
+    display: flex;
+    /*habilita flexbox al contenido de mi selector*/
+    gap: 10px; /*similar a MARGIN*/
+    flex-direction: row;
+}
 .card {
-    width: 30%;
+    position: relative;
+    flex: 1 0 100px; /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
+    flex-grow:1;/*permite o no que el contenedor se agrande siempre que haya espacio*/
+    flex-shrink: 0; /*permite o no que el contenedor se achique*/
+    flex-basis: 100px; /*permite definir un ancho o alto fijo*/
+    /* width: 60%; */
     height: 500px;
-    background-color: rgb(255, 241, 241);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
-    position: relative;
 }
 .card .imagen{
     width: 100%;

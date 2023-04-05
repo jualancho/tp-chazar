@@ -44,10 +44,10 @@ header .social{
 }
 .card {
     position: relative;
-    flex: 1 0 100px; /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
-    flex-grow:1;/*permite o no que el contenedor se agrande siempre que haya espacio*/
-    flex-shrink: 0; /*permite o no que el contenedor se achique*/
-    flex-basis: 100px; /*permite definir un ancho o alto fijo*/
+    flex: 1 0 250px; /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
+    /*flex-grow:1;permite o no que el contenedor se agrande siempre que haya espacio*/
+    /*flex-shrink: 0; permite o no que el contenedor se achique*/
+    /*flex-basis: 100px; /*permite definir un ancho o alto fijo*/
     /* width: 60%; */
     height: 500px;
     background-color: rgb(255, 255, 255);

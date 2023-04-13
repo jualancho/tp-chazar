@@ -51,6 +51,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .busqueda .icono{
     background-color: rgb(127, 255, 212);
@@ -74,6 +76,9 @@
 .busqueda input[type="search"]:focus {
     font-size: 14pt;
     transition: all 300ms ease-in-out;
+}
+.busqueda input[type="submit"]:active {
+    font-size: 24pt;
 }
 .busqueda input[type="submit"]{
     height: 60px;

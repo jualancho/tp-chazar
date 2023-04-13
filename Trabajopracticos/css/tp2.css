@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.15s ease-in-out;
+}
+
+/*TIPOGRAFIAS*/
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+.fw100 {
+    font-weight: 100;
+}
+.fw300 {
+    font-weight: 300;
+}
+.fw700 {
+    font-weight: 700;
+}
+
+/*estilo para imagenes de fondo*/
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*-----estilos del proyecto-------*/
+
+.portada {
+    position: relative;
+    background-image: url(../img/restaurante.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 7%;
+    color: white;
+    box-shadow: inset 0 0 200px black;
+    height: 350px;
+}
+
+.busqueda{
+    position: absolute;
+    bottom: -20px;
+    background-color: white;
+    width: 86%;
+    height: 60px;
+    margin: auto;
+    box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.425);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.busqueda .icono{
+    background-color: rgb(127, 255, 212);
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+
+}
+.icono~.material-icons-outlined{
+    font-size: 24pt;
+}
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px) ;
+    border: none ;
+    outline: none ;
+    padding: 0 20px;
+    font-size: 14pt;
+}
+.busqueda input[type="search"]:focus {
+    font-size: 14pt;
+    transition: all 300ms ease-in-out;
+}
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    border: none ;
+    outline: none ;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------FIN PORTADA-----------*/
+.menu {
+    background-color: rgb(28, 234, 165);
+    padding: 20px;
+}
+/*----------FIN MENU---------*/
+
+.productos {
+    background-color: rgb(70, 70, 70);
+    padding: 20px;
+}

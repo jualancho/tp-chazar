@@ -40,6 +40,11 @@
     height: 350px;
 }
 
+.portada .texto{
+    position: absolute;
+    bottom: 60px;
+}
+
 .busqueda{
     position: absolute;
     bottom: -20px;
@@ -100,6 +105,14 @@
 .menu {
     background-color: rgb(28, 234, 165);
     padding: 20px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    flex: 0 0 90px;
+    text-align: center;
+    list-style: none;
 }
 /*----------FIN MENU---------*/
 

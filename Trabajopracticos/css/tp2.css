@@ -6,7 +6,30 @@
     box-sizing: border-box;
     transition: all 0.15s ease-in-out;
 }
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+}
 
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}
 /*TIPOGRAFIAS*/
 .oswald {
     font-family: 'Oswald', sans-serif;
@@ -92,15 +115,6 @@
     outline: none ;
 }
 
-
-
-
-
-
-
-
-
-
 /*------------FIN PORTADA-----------*/
 .menu {
     background-color: rgb(28, 234, 165);
@@ -108,6 +122,8 @@
 }
 .menu ul{
     display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll ;
 }
 .menu ul li{
     flex: 0 0 90px;
@@ -123,4 +139,24 @@
 .productos {
     background-color: rgb(70, 70, 70);
     padding: 20px;
+}
+
+.restos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex: 1 0 160px;
+    width: 90%;
+    background-color: yellow;
+}
+.card .img{
+    flex: 0 0 40%;
+    background-color: red;
 }

@@ -55,7 +55,7 @@
 
 .portada {
     position: relative;
-    background-image: url(../img/restaurante.jpg);
+    background-image: url(../img/rest3.jpg);
     background-color: rgba(0, 0, 0, 0);
     padding: 7%;
     color: white;
@@ -159,4 +159,25 @@
 .card .img{
     flex: 0 0 40%;
     background-color: red;
+    overflow: hidden;
+}
+
+.img img{
+    height: 100%;
+
+}
+
+.card .datosresto{
+    padding: 12px;
+    flex: 0 0 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.valores{
+    display: flex;
+    justify-content: space-between;
 }

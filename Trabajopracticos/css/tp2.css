@@ -137,17 +137,18 @@
 /*----------FIN MENU---------*/
 
 .productos {
-    background-color: rgb(70, 70, 70);
+    background-color: white;
     padding: 20px;
 }
 
 .restos{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    background-color: blue;
+    flex-wrap: wrap;
+    gap:20px;
     align-items: center;
-    padding: 10px;
+    padding: 10px 50px;
+
 }
 
 .card{
@@ -155,6 +156,7 @@
     flex: 1 0 160px;
     width: 90%;
     background-color: yellow;
+    box-shadow: 0 0 15px 2px black;
 }
 .card .img{
     flex: 0 0 40%;
@@ -168,7 +170,9 @@
 }
 
 .card .datosresto{
+    position: relative;
     padding: 12px;
+    padding-top: 40px;
     flex: 0 0 60%;
     background-color: white;
     display: flex;
@@ -180,4 +184,20 @@
 .valores{
     display: flex;
     justify-content: space-between;
+}
+
+.f10{
+    font-size: 10pt!important;
+}
+
+.puntuacion{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+
 }

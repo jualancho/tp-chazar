@@ -201,3 +201,9 @@
     line-height: 40px;
 
 }
+
+.nav_mobile{
+    background-color: black;
+    position: fixed;
+
+}

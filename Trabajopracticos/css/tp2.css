@@ -201,9 +201,97 @@
     line-height: 40px;
 
 }
+.posrel{position: relative;}
+
+.valoracion{
+    position: absolute;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 60px;
+    bottom: -20px;
+    right: 20px;
+    font-weight: 700;
+    border-radius: 15px 0;
+    box-shadow: 0 0 15px -2px black;
+    color: black;
+}
+
+ul{list-style: none;}
+
+main{
+    background-color: aqua;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+}
+
+main ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul li{text-align: center;}
 
 .nav_mobile{
-    background-color: black;
     position: fixed;
-
+    bottom: 0;
+    width: 100%;
 }
+.nav_mobile ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav_mobile ul li{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_mobile a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav_mobile ul li:hover{
+    color: black;
+    border-top: solid 4px aquamarine;
+}
+.banner{
+    width: 100%;
+    padding: 10px;
+}
+
+.banner button{
+    left: 20px;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+.banner button:hover{
+    box-shadow: aquamarine;
+}
+.item menu{
+    background-color: violet;
+}
+
+.plato{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.item menu p{
+    background-color: blue;
+}
+.flex{display: flex;}
+.centrar_vert{align-items: center;}
+.centrar_h{justify-content: center;}
+
+.pa{position: absolute;}

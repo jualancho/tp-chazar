@@ -289,6 +289,7 @@ main ul li{text-align: center;}
 }
 .item menu p{
     background-color: blue;
+    width: 100%;
 }
 .flex{display: flex;}
 .centrar_vert{align-items: center;}

@@ -300,8 +300,8 @@ main ul li{text-align: center;}
 .producto .titulo{
     z-index: 10;
     background-color:red;
-    height: 20px;
-    width:100%;
+    width:70%;
+    bottom: 0;
 }
 h5{
     font-size: 30px;
@@ -316,6 +316,16 @@ h6{
     height: 100%;
     width: 100%;
     z-index: 0;
+}
+main{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+}
+.cuadrado{
+    height: 80px;
+    width: 80px;
+    background-color: black;
 }
 
 .flex{display: flex;}

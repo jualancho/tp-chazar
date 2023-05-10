@@ -117,7 +117,7 @@
 
 /*------------FIN PORTADA-----------*/
 .menu {
-    background-color: rgb(28, 234, 165);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 .menu ul{
@@ -221,7 +221,7 @@
 ul{list-style: none;}
 
 main{
-    background-color: aqua;
+    background-color: white;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -277,8 +277,8 @@ main ul li{text-align: center;}
 .banner button:hover{
     box-shadow: aquamarine;
 }
-.item menu{
-    background-color: violet;
+.item_menu{
+    background-color: gray;
 }
 
 .plato{
@@ -287,12 +287,20 @@ main ul li{text-align: center;}
     width: 100px;
     border-radius: 50%;
 }
-.item menu p{
-    background-color: blue;
+.item_menu p{
+    text-align: center;
     width: 100%;
+}
+h5{
+    font-size: 30px;
+    padding-left: 15px;
+}
+h6{
+    font-size: 15px;
+    padding-left: 15px;
 }
 .flex{display: flex;}
 .centrar_vert{align-items: center;}
 .centrar_h{justify-content: center;}
-
 .pa{position: absolute;}
+.bg_gray{background-color: gray;}

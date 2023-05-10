@@ -282,7 +282,7 @@ main ul li{text-align: center;}
 }
 
 .plato{
-    background-color: black;
+    background-image: url(../img/pollo.jpg);
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -290,6 +290,18 @@ main ul li{text-align: center;}
 .item_menu p{
     text-align: center;
     width: 100%;
+}
+.producto{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;
+}
+.producto .titulo{
+    z-index: 10;
+    background-color:red;
+    height: 20px;
+    width:100%;
 }
 h5{
     font-size: 30px;
@@ -299,6 +311,13 @@ h6{
     font-size: 15px;
     padding-left: 15px;
 }
+.obj_fit{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
 .flex{display: flex;}
 .centrar_vert{align-items: center;}
 .centrar_h{justify-content: center;}

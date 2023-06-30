@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.15s ease-in-out;
+}
+
+body{
+    padding: 10px;
+    background-color: rgb(219, 207, 207);
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(141, 87, 87);
+    border-radius: 20px;
+    height: 300px;
+}
+
+.cabesera{
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.cabesera h2{
+    color: gray;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.notificacion{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+img{
+    
+    height: 75px;
+    width: 75px;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h4{
+    color: gray;
+}
+
+.lista h1{
+    font-size: 30pt;
+    text-align: left;
+}
+
+.atrasado{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.tarde{
+    background-color: rgb(211, 187, 187);
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3{
+    color: brown;
+}
